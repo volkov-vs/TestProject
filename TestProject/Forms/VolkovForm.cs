@@ -7,21 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TestProject.Forms;
 
-namespace TestProject
+namespace TestProject.Forms
 {
-    public partial class MainForm : Form
+    public partial class VolkovForm : Form
     {
-        public MainForm()
+        public VolkovForm()
         {
             InitializeComponent();
-        }
-
-        private void VolkovButton_Click(object sender, EventArgs e)
-        {
-            VolkovForm form = new VolkovForm();
-            form.ShowDialog();
         }
     }
 }
