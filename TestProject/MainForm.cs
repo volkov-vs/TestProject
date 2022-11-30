@@ -23,5 +23,13 @@ namespace TestProject
             VolkovForm form = new VolkovForm();
             form.ShowDialog();
         }
+
+        private void PeshkovButton_Click(object sender, EventArgs e)
+        {
+            PeshkovForm form = new PeshkovForm();
+            form.ShowDialog();
+        }
+
+        
     }
 }

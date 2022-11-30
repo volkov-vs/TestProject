@@ -31,6 +31,7 @@ namespace TestProject
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.volkovButton = new System.Windows.Forms.Button();
+            this.peshkovButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@ namespace TestProject
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.Controls.Add(this.volkovButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.peshkovButton, 1, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 13);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -63,6 +65,16 @@ namespace TestProject
             this.volkovButton.UseVisualStyleBackColor = true;
             this.volkovButton.Click += new System.EventHandler(this.VolkovButton_Click);
             // 
+            // peshkovButton
+            // 
+            this.peshkovButton.Location = new System.Drawing.Point(159, 3);
+            this.peshkovButton.Name = "peshkovButton";
+            this.peshkovButton.Size = new System.Drawing.Size(75, 23);
+            this.peshkovButton.TabIndex = 1;
+            this.peshkovButton.Text = "Пешков";
+            this.peshkovButton.UseVisualStyleBackColor = true;
+            this.peshkovButton.Click += new System.EventHandler(this.PeshkovButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +92,7 @@ namespace TestProject
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button volkovButton;
+        private System.Windows.Forms.Button peshkovButton;
     }
 }
 
