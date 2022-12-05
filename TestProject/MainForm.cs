@@ -23,5 +23,11 @@ namespace TestProject
             VolkovForm form = new VolkovForm();
             form.ShowDialog();
         }
+
+        private void ZgonyaikoButton_Click(object sender, EventArgs e)
+        {
+            ZgonyaikoForm form = new ZgonyaikoForm();
+            form.ShowDialog(); 
+        }
     }
 }
