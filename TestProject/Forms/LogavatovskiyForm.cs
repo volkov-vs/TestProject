@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace TestProject.Forms
 {
-    public partial class VolkovForm : Form
+    public partial class LogavatovskiyForm : Form
     {
-        public VolkovForm()
+        public LogavatovskiyForm()
         {
             InitializeComponent();
+        }
+
+        private void OK_Button_Click(object sender, EventArgs e)
+        {
+            Close(); 
+        }
+
+        private void Cancel_Button_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
