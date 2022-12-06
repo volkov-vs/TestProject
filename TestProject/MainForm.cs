@@ -23,5 +23,11 @@ namespace TestProject
             VolkovForm form = new VolkovForm();
             form.ShowDialog();
         }
+
+        private void NovikovButton_Click(object sender, EventArgs e)
+        {
+            NovikovForm form = new NovikovForm();
+            form.ShowDialog(); 
+        }
     }
 }
