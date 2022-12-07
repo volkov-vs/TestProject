@@ -51,6 +51,12 @@
     <Compile Include="Forms\VolkovForm.Designer.cs">
       <DependentUpon>VolkovForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\VolkovSecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VolkovSecondForm.Designer.cs">
+      <DependentUpon>VolkovSecondForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\VolkovForm.resx">
       <DependentUpon>VolkovForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VolkovSecondForm.resx">
+      <DependentUpon>VolkovSecondForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
