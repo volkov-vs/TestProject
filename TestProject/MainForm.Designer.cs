@@ -31,6 +31,7 @@ namespace TestProject
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.volkovButton = new System.Windows.Forms.Button();
+            this.KaraevaButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@ namespace TestProject
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.Controls.Add(this.volkovButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.KaraevaButton, 1, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 13);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -63,6 +65,16 @@ namespace TestProject
             this.volkovButton.UseVisualStyleBackColor = true;
             this.volkovButton.Click += new System.EventHandler(this.VolkovButton_Click);
             // 
+            // KaraevaButton
+            // 
+            this.KaraevaButton.Location = new System.Drawing.Point(159, 3);
+            this.KaraevaButton.Name = "KaraevaButton";
+            this.KaraevaButton.Size = new System.Drawing.Size(75, 23);
+            this.KaraevaButton.TabIndex = 1;
+            this.KaraevaButton.Text = "Караева";
+            this.KaraevaButton.UseVisualStyleBackColor = true;
+            this.KaraevaButton.Click += new System.EventHandler(this.KaraevaButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +92,7 @@ namespace TestProject
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button volkovButton;
+        private System.Windows.Forms.Button KaraevaButton;
     }
 }
 
