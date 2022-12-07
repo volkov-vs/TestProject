@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\MarachevForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MarachevForm.Designer.cs">
+      <DependentUpon>MarachevForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\VolkovForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\MarachevForm.resx">
+      <DependentUpon>MarachevForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\VolkovForm.resx">
       <DependentUpon>VolkovForm.cs</DependentUpon>
     </EmbeddedResource>
