@@ -23,5 +23,11 @@ namespace TestProject
             VolkovForm form = new VolkovForm();
             form.ShowDialog();
         }
+
+        private void MarachevButton_Click(object sender, EventArgs e)
+        {
+            MarachevForm form = new MarachevForm();
+            form.ShowDialog(); 
+        }
     }
 }
