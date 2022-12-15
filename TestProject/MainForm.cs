@@ -18,10 +18,20 @@ namespace TestProject
             InitializeComponent();
         }
 
-        private void VolkovButton_Click(object sender, EventArgs e)
+        private void ShparagaButton_Click(object sender, EventArgs e)
         {
-            VolkovForm form = new VolkovForm();
+            ShparagaForm form = new ShparagaForm();
             form.ShowDialog();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

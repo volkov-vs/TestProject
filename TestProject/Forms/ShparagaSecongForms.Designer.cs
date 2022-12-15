@@ -1,7 +1,6 @@
-﻿
-namespace TestProject.Forms
+﻿namespace TestProject.Forms
 {
-    partial class VolkovForm
+    partial class ShparagaSecongForms
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +30,13 @@ namespace TestProject.Forms
         {
             this.SuspendLayout();
             // 
-            // VolkovForm
+            // VolkovSecondForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 290);
-            this.Name = "VolkovForm";
-            this.Text = "Волков";
+            this.ClientSize = new System.Drawing.Size(533, 298);
+            this.Name = "VolkovSecondForm";
+            this.Text = "VolkovSecondForm";
             this.ResumeLayout(false);
 
         }
