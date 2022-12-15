@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(533, 307);
             this.Name = "ShparagaSecondForm";
             this.Text = "ShparagaSecondForms";
-            this.Load += new System.EventHandler(this.VolkovSecondForm_Load);
+            this.Load += new System.EventHandler(this.ShparagaSecondForm_Load);
             this.ResumeLayout(false);
 
         }

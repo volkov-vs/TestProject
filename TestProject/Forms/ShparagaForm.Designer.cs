@@ -38,7 +38,7 @@ namespace TestProject.Forms
             this.ClientSize = new System.Drawing.Size(553, 290);
             this.Name = "ShparagaForm";
             this.Text = "Shparaga";
-            this.Load += new System.EventHandler(this.VolkovForm_Load);
+            this.Load += new System.EventHandler(this.ShparagaForm_Load);
             this.ResumeLayout(false);
 
         }

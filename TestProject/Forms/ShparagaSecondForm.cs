@@ -17,7 +17,7 @@ namespace TestProject.Forms
             InitializeComponent();
         }
 
-        private void VolkovSecondForm_Load(object sender, EventArgs e)
+        private void ShparagaSecondForm_Load(object sender, EventArgs e)
         {
 
         }

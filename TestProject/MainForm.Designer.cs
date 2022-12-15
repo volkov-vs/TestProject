@@ -62,7 +62,7 @@ namespace TestProject
             this.shparagaButton.TabIndex = 0;
             this.shparagaButton.Text = "Shparaga";
             this.shparagaButton.UseVisualStyleBackColor = true;
-            this.shparagaButton.Click += new System.EventHandler(this.VolkovButton_Click);
+            this.shparagaButton.Click += new System.EventHandler(this.ShparagaButton_Click);
             // 
             // MainForm
             // 

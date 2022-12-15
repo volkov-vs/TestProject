@@ -18,7 +18,7 @@ namespace TestProject
             InitializeComponent();
         }
 
-        private void VolkovButton_Click(object sender, EventArgs e)
+        private void ShparagaButton_Click(object sender, EventArgs e)
         {
             ShparagaForm form = new ShparagaForm();
             form.ShowDialog();
