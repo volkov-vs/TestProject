@@ -30,7 +30,7 @@ namespace TestProject
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.volkovButton = new System.Windows.Forms.Button();
+            this.shparagaButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +41,7 @@ namespace TestProject
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.volkovButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.shparagaButton, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 13);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -52,16 +52,17 @@ namespace TestProject
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(625, 299);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // volkovButton
+            // shparagaButton
             // 
-            this.volkovButton.Location = new System.Drawing.Point(3, 3);
-            this.volkovButton.Name = "volkovButton";
-            this.volkovButton.Size = new System.Drawing.Size(75, 23);
-            this.volkovButton.TabIndex = 0;
-            this.volkovButton.Text = "Волков";
-            this.volkovButton.UseVisualStyleBackColor = true;
-            this.volkovButton.Click += new System.EventHandler(this.VolkovButton_Click);
+            this.shparagaButton.Location = new System.Drawing.Point(3, 3);
+            this.shparagaButton.Name = "shparagaButton";
+            this.shparagaButton.Size = new System.Drawing.Size(75, 23);
+            this.shparagaButton.TabIndex = 0;
+            this.shparagaButton.Text = "Shparaga";
+            this.shparagaButton.UseVisualStyleBackColor = true;
+            this.shparagaButton.Click += new System.EventHandler(this.VolkovButton_Click);
             // 
             // MainForm
             // 
@@ -70,7 +71,8 @@ namespace TestProject
             this.ClientSize = new System.Drawing.Size(650, 324);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "MainForm";
-            this.Text = "Главная форма";
+            this.Text = "MainForm";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -79,7 +81,7 @@ namespace TestProject
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button volkovButton;
+        private System.Windows.Forms.Button shparagaButton;
     }
 }
 

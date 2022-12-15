@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TestProject.Forms
 {
-    public partial class VolkovSecondForm : Form
+    public partial class ShparagaSecongForms : Form
     {
-        public VolkovSecondForm()
+        public ShparagaSecongForms()
         {
             InitializeComponent();
         }

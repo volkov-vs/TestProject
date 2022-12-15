@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\ShparagaForm.cs">
+    <Compile Include="Forms\ShparagaMainForms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ShparagaForm.Designer.cs">
-      <DependentUpon>ShparagaForm.cs</DependentUpon>
+    <Compile Include="Forms\ShparagaMainForms.Designer.cs">
+      <DependentUpon>ShparagaMainForms.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ShparagaSecondForm.cs">
+    <Compile Include="Forms\ShparagaSecongForms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ShparagaSecondForm.Designer.cs">
-      <DependentUpon>ShparagaSecondForm.cs</DependentUpon>
+    <Compile Include="Forms\ShparagaSecongForms.Designer.cs">
+      <DependentUpon>ShparagaSecongForms.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -66,11 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\ShparagaForm.resx">
-      <DependentUpon>ShparagaForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ShparagaMainForms.resx">
+      <DependentUpon>ShparagaMainForms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ShparagaSecondForm.resx">
-      <DependentUpon>ShparagaSecondForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ShparagaSecongForms.resx">
+      <DependentUpon>ShparagaSecongForms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
